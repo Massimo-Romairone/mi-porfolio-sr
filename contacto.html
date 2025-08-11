@@ -36,18 +36,18 @@
         </main>
 
         <footer>
-
+            <p>&copy; 2025 - Mi Porfolio</p>
         </footer>
+        
         <script>
             function mostrarMensaje(event){
                 event.preventDefault();
                 document.getElementById("mensaje-enviado").style.display = "block";
-                document.querySelector('form-group').reset();
+                document.querySelector('form').reset();
                 setTimeout(function(){
-                document.getElementById("mensaje-enviado").style.display = "none";
-                
-                }, 3000)
-            }
+                    document.getElementById("mensaje-enviado").style.display = "none";
+                }, 3000);
+}
         </script>
     
     </body>
